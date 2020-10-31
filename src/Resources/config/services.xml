@@ -11,6 +11,7 @@
 
         <service id="knpu_lorem_ipsum.controller.ipsum_api_controller" class="KnpU\LoremIpsumBundle\Controller\IpsumApiController" public="true">
             <argument type="service" id="knpu_lorem_ipsum.knpu_ipsum" />
+            <argument type="service" id="event_dispatcher" on-invalid="null" />
         </service>
 
         <service id="knpu_lorem_ipsum.knpu_word_provider" class="KnpU\LoremIpsumBundle\KnpUWordProvider" />
