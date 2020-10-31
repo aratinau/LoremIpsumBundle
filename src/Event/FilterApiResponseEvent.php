@@ -4,7 +4,7 @@
 namespace KnpU\LoremIpsumBundle\Event;
 
 
-use Symfony\Contracts\EventDispatcher\Event;
+use Symfony\Component\EventDispatcher\Event;
 
 class FilterApiResponseEvent extends Event
 {
